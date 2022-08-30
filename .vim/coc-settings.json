@@ -1,0 +1,13 @@
+{
+    "colors.filetypes": ["*"],
+    "semanticTokens.filetypes": ["*"],
+    "languageserver": {
+        "csharp":{
+            "filetypes": ["cs"],
+            "command": "csharp-ls",
+            "rootPatterns": ["*.csproj", "*.sln"],
+            "trace.server": "verbose"
+       }
+    }
+}
+
